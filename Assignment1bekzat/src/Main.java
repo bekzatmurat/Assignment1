@@ -15,7 +15,7 @@ public class Main {
 
         School school = new School();
 
-        File file = new File("/Users/akerketastemirova/IdeaProjects/Assignment/src/students.txt");
+        File file = new File("/Users/bekzatmurat/IdeaProjects/Assignment/src/students.txt");
         Scanner scanner = new Scanner(file);
 
         while (scanner.hasNext()) {
@@ -45,7 +45,7 @@ public class Main {
 
         scanner.close();
 
-        file = new File("/Users/akerketastemirova/IdeaProjects/Assignment/src/teachers.txt");
+        file = new File("/Users/bekzatmurat/IdeaProjects/Assignment/src/teachers.txt");
         scanner = new Scanner(file);
 
         while (scanner.hasNext()) {
